@@ -1,0 +1,50 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Ordenar produtos",
+    "line": 1,
+    "id": "ordenar-produtos",
+    "tags": [],
+    "uri": "ordenar.feature",
+    "elements": [
+      {
+        "id": "ordenar-produtos;test-ordenar-produtos",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Test Ordenar Produtos",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que acesso o site da Amazon e pesquiso algum produto",
+            "result": {
+              "status": "undefined",
+              "duration": 208000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "clico em Classsificar por:  Preço: Do menor para o Maior",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "deve ordenar os produtos de forma crescente",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Pesquisar Produto",
+    "line": 1,
+    "id": "pesquisar-produto",
+    "tags": [],
+    "uri": "amazon2.feature",
+    "elements": [
+      {
+        "id": "pesquisar-produto;test-pesquisar-produto",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Test Pesquisar Produto",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que acesso o site da Amazon",
+            "result": {
+              "status": "undefined",
+              "duration": 232000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "pesquiso um produto por uma palavra chave e clico em enter",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "os produtos devem aparecer",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

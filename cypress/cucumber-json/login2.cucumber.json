@@ -1,0 +1,132 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login Admin",
+    "line": 1,
+    "id": "login-admin",
+    "tags": [],
+    "uri": "login2.feature",
+    "elements": [
+      {
+        "id": "login-admin;test-login-admin",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Test Login Admin",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que vou realizar login a plataforma",
+            "result": {
+              "status": "passed",
+              "duration": 595000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "insiro \"admin@yourstore.com\" e \"admin\"",
+            "result": {
+              "status": "passed",
+              "duration": 2318000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "devo receber a mensagem com o \"valido\"",
+            "result": {
+              "status": "passed",
+              "duration": 33000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-admin;test-login-admin",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Test Login Admin",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que vou realizar login a plataforma",
+            "result": {
+              "status": "passed",
+              "duration": 763000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "insiro \"admin@yourstore.com\" e \"admi\"",
+            "result": {
+              "status": "passed",
+              "duration": 1225000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "devo receber a mensagem com o \"invalido\"",
+            "result": {
+              "status": "passed",
+              "duration": 24000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-admin;test-login-admin",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Test Login Admin",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que vou realizar login a plataforma",
+            "result": {
+              "status": "passed",
+              "duration": 624000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "insiro \"admin@store.com\" e \"admin\"",
+            "result": {
+              "status": "passed",
+              "duration": 1137000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "devo receber a mensagem com o \"invalido\"",
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

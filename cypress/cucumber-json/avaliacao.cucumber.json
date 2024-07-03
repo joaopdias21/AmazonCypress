@@ -1,0 +1,66 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Avaliação do Site",
+    "line": 2,
+    "id": "avaliação-do-site",
+    "tags": [
+      {
+        "name": "@REQ_NOP-93",
+        "line": 1
+      }
+    ],
+    "uri": "avaliacao.feature",
+    "elements": [
+      {
+        "id": "avaliação-do-site;test-avaliação-do-site",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Test Avaliação do Site",
+        "tags": [
+          {
+            "name": "@REQ_NOP-93",
+            "line": 1
+          },
+          {
+            "name": "@TEST_NOP-94",
+            "line": 28
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 30,
+            "name": "que estou logado na plataforma do NopCommerce",
+            "result": {
+              "status": "passed",
+              "duration": 4110000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "selecionar uma opção para avaliacao e clicar na opção vote",
+            "result": {
+              "status": "passed",
+              "duration": 326000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "deve realizar a avaliação",
+            "result": {
+              "status": "passed",
+              "duration": 200000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

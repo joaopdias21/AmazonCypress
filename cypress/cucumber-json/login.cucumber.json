@@ -1,0 +1,67 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login administrativo",
+    "line": 2,
+    "id": "login-administrativo",
+    "tags": [
+      {
+        "name": "@REQ_NOP-83",
+        "line": 1
+      }
+    ],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login-administrativo;test-login-administrativo",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Test Login administrativo",
+        "tags": [
+          {
+            "name": "@REQ_NOP-83",
+            "line": 1
+          },
+          {
+            "name": "@TEST_NOP-84",
+            "line": 8
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "que estou no site dop NopCommerce",
+            "result": {
+              "status": "passed",
+              "duration": 1385000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "insiro login e senha validos",
+            "result": {
+              "status": "passed",
+              "duration": 2162000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "devo me logar a plataforma",
+            "result": {
+              "status": "failed",
+              "duration": 4020000000,
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.content-header`, but never found it.\n    at Context.eval (cypress/e2e/step_definitions/login/login.js:13:30)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

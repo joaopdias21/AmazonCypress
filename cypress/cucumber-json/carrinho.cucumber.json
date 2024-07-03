@@ -1,0 +1,130 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Testes Amazon",
+    "line": 1,
+    "id": "testes-amazon",
+    "tags": [],
+    "uri": "carrinho.feature",
+    "elements": [
+      {
+        "id": "testes-amazon;1.-test-adicionar-ao-carrinho",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "1. Test Adicionar ao Carrinho",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que estou logado na plataforma da Amazon",
+            "result": {
+              "status": "failed",
+              "duration": 12519000000,
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Olá, Teste' but never did.\n    at Context.eval (cypress/e2e/step_definitions/carrinho/carrinho.js:9:30)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "pesquiso o produto alexa e adiciono ele ao carrinho",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "o produto deve ser adicionado ao carrinho",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "testes-amazon;2.-test-pesquisar-produto",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "2. Test Pesquisar Produto",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "que acesso o site da Amazon",
+            "result": {
+              "status": "passed",
+              "duration": 2432000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "pesquiso um produto por uma palavra chave e clico em enter",
+            "result": {
+              "status": "passed",
+              "duration": 6347000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "os produtos devem aparecer",
+            "result": {
+              "status": "passed",
+              "duration": 189000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "testes-amazon;3.-test-ordenar-produtos",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "3. Test Ordenar Produtos",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "que acesso o site da Amazon e pesquiso algum produto",
+            "result": {
+              "status": "passed",
+              "duration": 17197000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "clico em Classsificar por:  Preço: Do menor para o Maior",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element:\n\n`<option data-url=\"/s?k=guitarra&amp;s=price-asc-rank&amp;__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;crid=2GP76MRR3DFM2&amp;qid=1720047465&amp;sprefix=guit%2Caps%2C295&amp;ref=sr_st_price-asc-rank&amp;ds=v1%3AYwnob17zgUDpYYsdPtLLo2yYvPM89g2aquA51K%2FXpbI\" value=\"price-asc-rank\">Preço: ...</option>`\n\nis being covered by another element:\n\n`<div id=\"search\">...</div>`\n\nFix this problem, or use {force: true} to disable error checking.\n    at ensureIsDescendent (https://www.amazon.com.br/__cypress/runner/cypress_runner.js:112417:68)\n    at ensureDescendents (https://www.amazon.com.br/__cypress/runner/cypress_runner.js:112468:5)\n    at ensureDescendentsAndScroll (https://www.amazon.com.br/__cypress/runner/cypress_runner.js:112474:14)\n    at ensureElIsNotCovered (https://www.amazon.com.br/__cypress/runner/cypress_runner.js:112605:5)\n    at runAllChecks (https://www.amazon.com.br/__cypress/runner/cypress_runner.js:112804:52)\n    at retryActionability (https://www.amazon.com.br/__cypress/runner/cypress_runner.js:112841:16)\n    at tryCatcher (https://www.amazon.com.br/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise.attempt.Promise.try (https://www.amazon.com.br/__cypress/runner/cypress_runner.js:4315:29)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (https://www.amazon.com.br/__cypress/runner/cypress_runner.js:3486:19)\n    at Promise.attempt.Promise.try (https://www.amazon.com.br/__cypress/runner/cypress_runner.js:4305:9)\n    at whenStable (https://www.amazon.com.br/__cypress/runner/cypress_runner.js:144459:68)\n    at <unknown> (https://www.amazon.com.br/__cypress/runner/cypress_runner.js:144400:14)\n    at tryCatcher (https://www.amazon.com.br/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (https://www.amazon.com.br/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (https://www.amazon.com.br/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (https://www.amazon.com.br/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (https://www.amazon.com.br/__cypress/runner/cypress_runner.js:1701:18)\n    at Promise._fulfill (https://www.amazon.com.br/__cypress/runner/cypress_runner.js:1645:18)\n    at <unknown> (https://www.amazon.com.br/__cypress/runner/cypress_runner.js:5450:46)\nFrom Your Spec Code:\n    at Context.eval (cypress/e2e/step_definitions/carrinho/carrinho.js:48:48)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "deve ordenar os produtos de forma crescente",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

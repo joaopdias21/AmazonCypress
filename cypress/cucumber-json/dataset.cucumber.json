@@ -1,0 +1,132 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Navegação",
+    "line": 1,
+    "id": "navegação",
+    "tags": [],
+    "uri": "dataset.feature",
+    "elements": [
+      {
+        "id": "navegação;test-navegação",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Test Navegação",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que estou na pagina inicial",
+            "result": {
+              "status": "passed",
+              "duration": 1469000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "clico em \"Computers\" com \"computers\"",
+            "result": {
+              "status": "passed",
+              "duration": 1232000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "devo ir para a opção \"Computers\"",
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navegação;test-navegação",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Test Navegação",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que estou na pagina inicial",
+            "result": {
+              "status": "passed",
+              "duration": 851000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "clico em \"Electronics\" com \"electronics\"",
+            "result": {
+              "status": "passed",
+              "duration": 1298000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "devo ir para a opção \"Electronics\"",
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navegação;test-navegação",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Test Navegação",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que estou na pagina inicial",
+            "result": {
+              "status": "passed",
+              "duration": 804000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "clico em \"Apparel\" com \"apparel\"",
+            "result": {
+              "status": "passed",
+              "duration": 1599000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "devo ir para a opção \"Apparel\"",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
