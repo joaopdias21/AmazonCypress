@@ -47,3 +47,8 @@ When ("pesquiso o produto alexa e adiciono ele ao carrinho", ()=>{
     cy.get('#a-autoid-26').click()
     cy.get('#s-result-sort-select_1').click()
  })
+
+ Then ("deve ordenar os produtos de forma crescente", ()=>{
+   cy.contains('Preço: Do menor para o maior').should('exist')
+
+ })
