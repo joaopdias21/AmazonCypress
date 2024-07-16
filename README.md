@@ -8,7 +8,7 @@ O Git, voce pode verificar se ja tem o git instalado na sua maquina usando, abri
 
 Após a instalação dos aplicativos voce criara uma pasta onde deseja colocar os seus projetos, abrira o aplicativo visual studio code, e na opção "File - Open Folder" voce colocara a pasta criada.
 
-Após abrir a pasta no VS code, na opção "View - Terminal" ou teclando 'CTRL+', voce abrirá o terminal. Abrindo o terminal voce irá digitar "git clone https://github.com/joaopdias21/bcodex" que isso ira clonar o projeto na sua maquina.
+Após abrir a pasta no VS code, na opção "View - Terminal" ou teclando 'CTRL+', voce abrirá o terminal. Abrindo o terminal voce irá digitar "git clone (https://github.com/joaopdias21/Amazon)" que isso ira clonar o projeto na sua maquina.
 
 Após clonar projeto se não tiver cypress instalado na maquina, no terminal digite "npm install cypress --save-dev" e espere instalar o cypress.
 
