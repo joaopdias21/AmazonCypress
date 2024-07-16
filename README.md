@@ -18,11 +18,15 @@ Após instalado o cypress, basta dar o comando "npx cypress open", que vai abrir
 
 OBS: Caso ao abrir o cypress e não encontrar os arquivos de teste:
 
-Após abrir o cypress com o comando "npx cypress open" você deve dar escolher E2E Testing e irá aparecer a tela image
+Após abrir o cypress com o comando "npx cypress open" você deve dar escolher E2E Testing e irá aparecer a tela ![image](https://github.com/user-attachments/assets/9399cd37-43eb-402f-8e75-acfe1e6b8eba)
 
-Clicando em "Scaffold example specs" deve aparecer a seguinte tela image, basta clicar em OK.
 
-Após isso na sua IDE, deve aparecer outra pasta chamada cypress, dessa formaimage. Após aparecer a pasta, basta mover os arquivos de teste para este caminho cypress\e2e\1-getting-started. Após os arquivos movidos voce ja o enxerga na tela do cypress para rodar os testes.
+Clicando em "Scaffold example specs" deve aparecer a seguinte tela ![image](https://github.com/user-attachments/assets/66a01be4-8701-4a0e-957d-6d3fa408013b)
+
+, basta clicar em OK.
+
+Após isso na sua IDE, deve aparecer outra pasta chamada cypress, dessa forma ![image](https://github.com/user-attachments/assets/4917a265-3e6e-4efe-adfa-6a0325ce0a57)
+ . Após aparecer a pasta, basta mover os arquivos de teste para este caminho cypress\e2e\1-getting-started. Após os arquivos movidos voce ja o enxerga na tela do cypress para rodar os testes.
 
 
 
