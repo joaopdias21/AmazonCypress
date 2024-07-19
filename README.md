@@ -11,7 +11,7 @@ Após a instalação dos aplicativos voce criara uma pasta onde deseja colocar o
 
 Após abrir a pasta no VS code, na opção "View - Terminal" ou teclando 'CTRL+', voce abrirá o terminal. Abrindo o terminal voce irá digitar "git clone (https://github.com/joaopdias21/Amazon)" que isso ira clonar o projeto na sua maquina.
 
-Após clonar projeto se não tiver cypress instalado na maquina, no terminal digite "npm install cypress --save-dev" e espere instalar o cypress.
+Após clonar projeto se não tiver cypress instalado na maquina, no terminal digite "npm install cypress --save-dev" e espere instalar o cypress.Também faça a instalação do pepino no cypress, no terminal digite "npm install cypress -cucumber-preprocessor --save-dev" e aguarde a instalação
 
 Após instalado o cypress, basta dar o comando "npx cypress open", que vai abrir a interface grafica do cypress em modo interativo. após o comando deve aparecer essa tela:
 ![image](https://github.com/joaopdias21/bcodex/assets/85888398/8f9cf964-9b8a-44fc-906d-6bfbff06f57f), clicando em E2E Testing, voce escolhera o navegador que deseja realizar o teste. Após escolher o navegador de sua preferencia irá aparacer os arquivos de teste para realizar a automação, com isso, basta clicar no arquivo que deseja rodar a automação, que irá rodar.
