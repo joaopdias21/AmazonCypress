@@ -7,6 +7,7 @@ Given ("que estou logado na plataforma da Amazon", ()=>{
     cy.get('#ap_email').type('testeamzon@hotmail.com{enter}')
     cy.get('#ap_password').type('123456789{enter}')
     cy.contains('Olá, Teste').should('exist')
+    cy.get('#nav-link-accountList-nav-line-1').screenshot()
 })
 
 When ("pesquiso o produto alexa e adiciono ele ao carrinho", ()=>{
@@ -44,7 +45,7 @@ When ("pesquiso o produto alexa e adiciono ele ao carrinho", ()=>{
  })
 
  When ("clico em Classsificar por:  Preço: Do menor para o Maior",()=>{
-    cy.get('#a-autoid-26').click()
+    cy.get('#a-autoid-0-announce').click()
     cy.get('#s-result-sort-select_1').click()
  })
 

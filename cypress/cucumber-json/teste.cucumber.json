@@ -1,0 +1,132 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Testes Amazon",
+    "line": 1,
+    "id": "testes-amazon",
+    "tags": [],
+    "uri": "teste.feature",
+    "elements": [
+      {
+        "id": "testes-amazon;1.-test-adicionar-ao-carrinho",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "1. Test Adicionar ao Carrinho",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que estou logado na plataforma da Amazon",
+            "result": {
+              "status": "passed",
+              "duration": 10167000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "pesquiso o produto alexa e adiciono ele ao carrinho",
+            "result": {
+              "status": "passed",
+              "duration": 19621000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "o produto deve ser adicionado ao carrinho",
+            "result": {
+              "status": "passed",
+              "duration": 478000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "testes-amazon;2.-test-pesquisar-produto",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "2. Test Pesquisar Produto",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "que acesso o site da Amazon",
+            "result": {
+              "status": "passed",
+              "duration": 5995000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "pesquiso um produto por uma palavra chave e clico em enter",
+            "result": {
+              "status": "passed",
+              "duration": 5460000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "os produtos devem aparecer",
+            "result": {
+              "status": "passed",
+              "duration": 175000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "testes-amazon;3.-test-ordenar-produtos",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "3. Test Ordenar Produtos",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "que acesso o site da Amazon e pesquiso algum produto",
+            "result": {
+              "status": "passed",
+              "duration": 7856000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "clico em Classsificar por:  Preço: Do menor para o Maior",
+            "result": {
+              "status": "passed",
+              "duration": 644000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "deve ordenar os produtos de forma crescente",
+            "result": {
+              "status": "passed",
+              "duration": 71000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
