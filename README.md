@@ -32,3 +32,10 @@ Após isso na sua IDE, deve aparecer outra pasta chamada cypress, dessa forma ![
 Além disso, você pode acessar o vídeo através do drive mostrando o passo a passo: https://drive.google.com/file/d/1BTR0DEuzf-aw5LRQ-cNbJeo1tiubU3ur/view?usp=sharing
 
 
+
+Aqui também está um video da automação sendo executada, https://drive.google.com/file/d/1iWIVMo0vzfoO_Xa09c0XFAnicjpomMhl/view?usp=sharing.
+Neste video mostra a execução dos códigos sendo executadas. Para chegar até a tela para executar os codigos, abri o terminal e executei o comando "npx cypress open" onde abriu a interface do cypress. Escolhi a opção "E2E Testing" e a opção do navegador foi o "Chrome". Com isso chegamos a tela apresentada no video.
+
+OBSS: Voce tambem pode ver este passo a passo acima.
+
+
