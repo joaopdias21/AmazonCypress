@@ -16,6 +16,7 @@ const validaCarrinhoPage = new ValidaCarrinhoPage();
 const ordenarPage = new OrdenarPage();
 const username = 'testeamzon@hotmail.com';
 const password = '123456789';
+const password2 = '55555555555';
 const pesquisar = 'alexa';
 
 
@@ -61,30 +62,6 @@ Then('devo me logar na plataforma', ()=>{
 })
 
 
-// TESTE LOGIN SENHA ERRADA
-
-Given ('que acesso o site da Amazon e vou me logar', ()=>{
-   homePage.visit();
-   homePage.openLoginPage().click();
-})
-
-When ('insiro meu usuario e senha', ()=>{
- loginPage.enterUsername(username);
- loginPage.submitContinue().click();
- const password = '1234567890';
-
- loginPage.enterPassword(password);
- loginPage.submitLogin().click();
-})
-
-Then('deve exibir mensagem de senha incorreta', ()=>{
-loginPage.verifyLoginIncorreto();
-})
-
-
-
-
-
 // TESTE ADICIONAR AO CARRINHO
 Given (/^que estou logado na plataforma da Amazon$/, ()=>{
     homePage.visit();
@@ -95,12 +72,7 @@ Given (/^que estou logado na plataforma da Amazon$/, ()=>{
     loginPage.enterPassword(password);
     loginPage.submitLogin().click();
     loginPage.verifyLoginSuccess();
-   // cy.visit('https://www.amazon.com.br/')
-   //  cy.get('#nav-link-accountList-nav-line-1').click()
-   //  cy.get('#ap_email').type('testeamzon@hotmail.com{enter}')
-   //  cy.get('#ap_password').type('123456789{enter}')
-   //  cy.contains('Olá, Teste').should('exist')
-   //  cy.get('#nav-link-accountList-nav-line-1').screenshot()
+  
 })
 
 When ("pesquiso o produto alexa e adiciono ele ao carrinho", ()=>{
@@ -112,9 +84,7 @@ When ("pesquiso o produto alexa e adiciono ele ao carrinho", ()=>{
    carrinhoPage.fecharOpcao().click();
    
 
-   //  cy.get('#twotabsearchtextbox').type('alexa{enter}')
-   //  cy.get('[data-asin="B09B8VGCR8"] > .sg-col-inner > .s-widget-container > [data-action="puis-card-container-declarative"] > .puis-card-container > .a-spacing-base > .a-spacing-small > [data-cy="title-recipe"] > .a-size-mini > .a-link-normal > .a-size-base-plus').click()
-   //  cy.get('#add-to-cart-button').click()
+   
 
  })
 
@@ -126,8 +96,7 @@ When ("pesquiso o produto alexa e adiciono ele ao carrinho", ()=>{
 // TESTE VALIDAR PRODUTOS NO CARRINHO
 
  Given ("que estou logado na plataforma da Amazon",()=>{
-   //  cy.visit('https://www.amazon.com.br/')
-   //  cy.get('#twotabsearchtextbox').type('guitarra{enter}')
+  
    homePage.visit();
    homePage.openLoginPage().click();
    loginPage.enterUsername(username);
@@ -145,7 +114,7 @@ When ("pesquiso o produto alexa e adiciono ele ao carrinho", ()=>{
  })
 
  Then ("devo ver meus produtos no carrinho", ()=>{
-   // cy.contains('Preço: Do menor para o maior').should('exist')
+   
    validaCarrinhoPage.verificaCarrinho();
 
  })

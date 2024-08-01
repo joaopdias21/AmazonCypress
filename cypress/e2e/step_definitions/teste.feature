@@ -10,10 +10,6 @@ Feature: Testes Amazon
 		When insiro meu usuario e senha
  		Then devo me logar na plataforma
 
-	Scenario: 2. Test Login Senha Incorreta
-		Given que acesso o site da Amazon e vou me logar
-		When insiro meu usuario e senha
- 		Then deve exibir mensagem de senha incorreta
 
 	Scenario: 3. Test Adicionar ao Carrinho
  		Given que estou logado na plataforma da Amazon

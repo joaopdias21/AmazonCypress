@@ -1,0 +1,50 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Testes Amazon 2",
+    "line": 1,
+    "id": "testes-amazon-2",
+    "tags": [],
+    "uri": "teste_erro.feature",
+    "elements": [
+      {
+        "id": "testes-amazon-2;1.-test-login-senha-incorreta",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "1. Test Login Senha Incorreta",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que acesso o site da Amazon e vou me logar",
+            "result": {
+              "status": "undefined",
+              "duration": 280000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "insiro meu usuario e senha",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "deve exibir mensagem de senha incorreta",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
