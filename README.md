@@ -29,7 +29,10 @@ Após isso na sua IDE, deve aparecer outra pasta chamada cypress, dessa forma ![
  . Após aparecer a pasta, basta mover os arquivos de teste para este caminho cypress\e2e\1-getting-started. Após os arquivos movidos voce ja o enxerga na tela do cypress para rodar os testes.
 
 
-Além disso, você pode acessar o vídeo através do drive mostrando o passo a passo: https://drive.google.com/file/d/1BTR0DEuzf-aw5LRQ-cNbJeo1tiubU3ur/view?usp=sharing
+Além disso, você pode acessar o vídeo através do drive mostrando o passo a passo: https://drive.google.com/file/d/1HP7Ks-VsRznWl8eGCZjt3xxBmIm8TNEx/view?usp=sharing
+
+E aqui também temos uma documentação dos códigos com Testes Manuais e Casos de testes:
+https://drive.google.com/file/d/1PYAi_oLeEy4oZhU1Ly3faiE-UOgUZmqU/view?usp=sharing
 
 
 
